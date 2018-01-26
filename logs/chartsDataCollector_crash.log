@@ -1,0 +1,24 @@
+2018-01-18 21:46:56
+TypeError: Cannot read property 'pool' of undefined
+    at /home/ubuntu/pool/lib/charts.js:148:30
+    at IncomingMessage.<anonymous> (/home/ubuntu/pool/lib/apiInterfaces.js:31:17)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:458:13)
+
+2018-01-18 21:46:56
+TypeError: Cannot read property 'pool' of undefined
+    at /home/ubuntu/pool/lib/charts.js:154:30
+    at IncomingMessage.<anonymous> (/home/ubuntu/pool/lib/apiInterfaces.js:31:17)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:458:13)
+
+2018-01-19 12:49:39
+TypeError: Cannot read property 'error' of undefined
+    at /home/ubuntu/pool/lib/charts.js:188:26
+    at IncomingMessage.<anonymous> (/home/ubuntu/pool/lib/apiInterfaces.js:31:17)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:458:13)
+
