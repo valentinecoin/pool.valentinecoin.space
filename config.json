@@ -1,8 +1,8 @@
 {
-    "coin": "Brazukcoin",
-    "symbol": "BZK",
+    "coin": "Valentinecoin",
+    "symbol": "VAY",
     "coinUnits": 1000000000000,
-    "coinDifficultyTarget": 240,
+    "coinDifficultyTarget": 120,
     "version": "v2.1.1",
 
     "logging": {
@@ -26,7 +26,7 @@
         "bonusChance": 1,
         "blockFinderBonus": 0.01,
         "clusterForks": "auto",
-	"poolAddress": "br1P7xs8K9nPeUyG3qdQD5CMxCMNvBKkUZPzqrrbPBfU56kb1HyXo9jJU4N2fWSDrkY4a1SyDiuSEDWvJUkauT4Q1HfwqBDyH",
+	"poolAddress": "Vay6BHiP3Kj2oJahkXzoH3gyvFEgsKPsHLfdg1KsJ6WQ51GBuk12cCtUS1gtcWwsMvAbpBwFyDtfY4EoZv4aKtZc33JsbFyxxZ",
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
         "ports": [
@@ -116,7 +116,7 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 44043
+        "port": 2307
     },
 
     "wallet": {
