@@ -1,4 +1,4 @@
-cryptonote-brazukcoin-pool
+cryptonote-valentinecoin-pool
 ======================
 
 High performance Node.js (with native C addons) mining pool for Cryptonote based coins.
@@ -75,12 +75,11 @@ Comes with lightweight example front-end script which uses the pool's AJAX API.
 * [CryptoNote Forum](https://forum.cryptonote.org/)
 * [CryptoNote Universal Pool Forum](https://bitcointalk.org/index.php?topic=705509)
 * [Forknote](https://forknote.net)
-* [Brazukcoin](https://www.brazukcoin.org)
+* [Valentinecoin](https://www.valentinecoin.org)
 
 ### Pools Using This Software
 
-* http://pool.brazukcoin.org
-* http://bzk.hpool.net
+* http://pool.valentinecoin.space
 
 Usage
 =====
@@ -155,16 +154,16 @@ cp website/config.sample.js website/config.js
 Explanation for each field:
 ```javascript
 /* Used for storage in redis so multiple coins can share the same redis instance. */
-"coin": "charnacoin",
+"coin": "valentinecoin",
 
 /* Used for front-end display */
-"symbol": "chrc",
+"symbol": "vay",
 
 /* Minimum units in a single coin, see COIN constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinUnits": 100000000,
+"coinUnits": 100000000000,
 
 /* Coin network time to mine one block, see DIFFICULTY_TARGET constant in DAEMON_CODE/src/cryptonote_config.h */
-"coinDifficultyTarget": 60,
+"coinDifficultyTarget": 120,
 
 "logging": {
 
@@ -314,13 +313,13 @@ Explanation for each field:
 /* Coin daemon connection details. */
 "daemon": {
     "host": "127.0.0.1",
-    "port": 18091
+    "port": 45889
 },
 
 /* Wallet daemon connection details. */
 "wallet": {
     "host": "127.0.0.1",
-    "port": 18093
+    "port": 8082
 },
 
 /* Redis connection into. */
